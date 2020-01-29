@@ -1,0 +1,55 @@
+/*Basec classes*/
+.float-left{
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.clear {
+	clear: right;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: red;
+}
+.wraper::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+/*Header*/
+.logo {
+	margin-right:10px;
+}
+.logo img {
+	width: 100px;
+}
+.navigation-li {
+	display: inline-block;
+}
+.navigation-li::before {
+	 content: "&#8364";
+	display: inline-block;
+}
+.navigation-li::after {
+	content: "";
+	width:2px;
+	height: 20px;
+	background-color: blue;
+	display: inline-block;
+}
+.wraper-text p {
+	width: 500px;
+}
+.social img {
+	height: 30px;
+}
+.social-divider::after {
+	content: "";
+	width: 2px;
+	height: 30px;
+	background-color: blue;
+	display: inline-block;
+	margin:0 10px;
+}
